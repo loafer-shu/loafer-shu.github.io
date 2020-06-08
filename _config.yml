@@ -88,6 +88,8 @@ analytics :
       tracking_id : 'tracking_id'  # ex. UA-72165600-X
 
 
+categories: [NodeJS, JavaScript, Java, CSS, HTML]
+
 # For about.html. Fell free to create your own!
 skill_software_keywords: [Java, MySQL]
 skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
