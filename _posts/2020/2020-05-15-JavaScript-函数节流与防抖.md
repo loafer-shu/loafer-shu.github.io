@@ -10,7 +10,7 @@ categories: JavaScript
 - 函数节流: 指定时间间隔内只会执行一次任务；
 - 函数防抖: 任务频繁触发的情况下，只有任务触发的间隔超过指定间隔的时候，任务才会执行。
 
-#### 函数节流(throttle)
+### 函数节流(throttle)
 
 ```javascript
 //实现节流
@@ -41,7 +41,7 @@ function onScroll() {
 $(window).on('scroll', throttle(onScroll));
 ```
 
-#### 函数防抖(debounce)
+### 函数防抖(debounce)
 
 ```javascript
 //防抖实现
