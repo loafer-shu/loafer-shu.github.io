@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Yummy Theme # ex. I m Chuan
+title: Shu # ex. I m Chuan
 name: SeeTheDream # ex. DONGChuan
 email: my_email_address@lalala.com
 location: My location # ex. Nice, France
@@ -59,7 +59,7 @@ paginate_path: 'page:num'
 navs:
   -
     href: /
-    label: Home
+    label: 主页
 
   -
     href: /open-source
@@ -67,15 +67,15 @@ navs:
 
   -
     href: /blog
-    label: Blog
+    label: 博客
 
   -
     href: /bookmark
-    label: Bookmark
+    label: 书签
 
   -
     href: /about
-    label: About
+    label: 关于
 
 # Sidebar to show popular repo
 side_bar_repo_limit: 5 # Number of repos to show
