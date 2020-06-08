@@ -1,7 +1,7 @@
 ---
 layout: post
 title: jQuery 监听元素动画开始与结束
-date:   2019-12-02 16:07:35 +0800
+date: 2019-12-02 16:07:35 +0800
 categories: [JavaScript]
 ---
 

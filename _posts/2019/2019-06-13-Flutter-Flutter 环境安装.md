@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Flutter 环境安装
-date:   2019-06-13 10:58:35 +0800
+date: 2019-06-13 10:58:35 +0800
 categories: [Flutter]
+no-post-nav: true
 ---
 
 ## Flutter 环境安装

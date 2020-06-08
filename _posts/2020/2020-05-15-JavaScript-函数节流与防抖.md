@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "节流与防抖"
-date:   2020-05-15 11:04:35 +0800
+title: "节流与防抖"
+date: 2020-05-15 11:04:35 +0800
 categories: [JavaScript]
 ---
 
