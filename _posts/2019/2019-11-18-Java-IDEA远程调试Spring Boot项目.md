@@ -2,7 +2,7 @@
 layout: post
 title:  "IDEA远程调试Spring Boot项目"
 date:   2019-11-18 17:58:34 +0800
-categories: Java
+categories: [Java]
 ---
 
 ## IDEA远程调试Spring Boot项目
@@ -14,7 +14,7 @@ categories: Java
 - 可--server.port=8081指定程序运行端口
 - 远程调试不需要启动本地项目，两边代码一定要**保持一致**
 - 本人使用JDK版本为8
-- centos查询端口指令netstat -tunlp |grep 8000
+- centos查询端口指令netstat -tunlp \|grep 8000
 
 
 
