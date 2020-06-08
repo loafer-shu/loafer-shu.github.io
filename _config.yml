@@ -7,11 +7,12 @@
 
 # Site settings
 title: Shu # ex. I m Chuan
-name: SeeTheDream # ex. DONGChuan
-email: my_email_address@lalala.com
-location: My location # ex. Nice, France
-company: MyCompany
-company_url: my_company_website
+name: 舒 # ex. DONGChuan
+email: 864963368@qq.com
+wx: s864963368
+location: 湖北武汉 # ex. Nice, France
+company: Good Good Study
+company_url: undefined
 github_url: https://github.com/SeeTheDream # ex. https://github.com/DONGChuan
 github_username: SeeTheDream # ex. DONGChuan
 description: description_of_your_web_site
@@ -88,7 +89,7 @@ analytics :
 
 
 # For about.html. Fell free to create your own!
-skill_software_keywords: [Java, C, C++, Qt, Python, MySQL, Oracle, SQLite, PL/SQL, Design Patterns]
+skill_software_keywords: [Java, MySQL]
 skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
-skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, AngularJS, NodeJS, ExpressJS, MongoDB, Redis, PHP, Symfony, Boostrap]
+skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, NodeJS, MongoDB, Redis, Boostrap]
 skill_mobile_app_keywords: [Android, Sketch UI Desgin]
