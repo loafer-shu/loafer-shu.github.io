@@ -9,3 +9,8 @@
 .about .btn {
     margin-bottom: 5px;
 }
+
+.about strong {
+    display: inline-block;
+    margin: 0 3px;
+}
