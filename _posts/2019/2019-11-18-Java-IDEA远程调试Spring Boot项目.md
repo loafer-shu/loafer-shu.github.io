@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "IDEA远程调试Spring Boot项目"
-date:   2019-11-18 17:58:34 +0800
+title: "IDEA远程调试Spring Boot项目"
+date: 2019-11-18 17:58:34 +0800
 categories: [Java]
 ---
 
