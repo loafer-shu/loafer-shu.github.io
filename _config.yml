@@ -63,10 +63,6 @@ navs:
     label: 主页
 
   -
-    href: /open-source
-    label: Open-Source
-
-  -
     href: /blog
     label: 博客
 
@@ -87,8 +83,6 @@ analytics :
   google :
       tracking_id : 'tracking_id'  # ex. UA-72165600-X
 
-
-categories: [NodeJS, JavaScript, Java, CSS, HTML]
 
 # For about.html. Fell free to create your own!
 skill_software_keywords: [Java, MySQL]
