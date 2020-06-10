@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "关于jQuery ajax和 Axios默认contentType"
-date: 2020-03-17 11:52:35 +0800
+date: 2020-04-27 14:31:35 +0800
 categories: [JavaScript]
 ---
 
