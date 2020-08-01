@@ -27,7 +27,7 @@ categories: [Git]
 git reflog
 ```
 
-首先使用 **``git reflog ``** 查询变更记录，会看到一堆![这样](/assets/img/git关于undo commit.png)
+首先使用 **``git reflog ``** 查询变更记录，会看到一堆![这样](/assets/img/git-about-undo-commit.png)
 
 类似这样的日志，
 
