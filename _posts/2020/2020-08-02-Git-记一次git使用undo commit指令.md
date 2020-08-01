@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 记一次git使用undo commit指令
-date: 2020-08-02 01:15:40 +0800
+date: 2020-08-02 01:15:40 +08:00
 categories: [Git]
 ---
 
