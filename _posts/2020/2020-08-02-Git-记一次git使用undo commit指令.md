@@ -33,18 +33,18 @@ git reflog
 
 接着使用 ``git reset``指令重置代码状态
 
-推荐使用``--mixed``参数，[官方文档]( https://git-scm.com/docs/git-reset#Documentation/git-reset.txt---mixed ) 说这个会将代码重置到指定的版本，但不重置工作树，也就是恢复代码到已修改但未提交的时候。
+推荐使用``--soft``参数，[官方文档]( https://git-scm.com/docs/git-reset#Documentation/git-reset.txt---mixed ) 说这个会将代码重置到指定的版本，但不重置工作树，也就是恢复代码到已修改但未提交的时候。
 
-我使用的是``--hard`` 参数，代码恢复到了提交之后的状态，即代码已修改并提交的状态，漏改的文件选择了修改并继续提交。。未再尝试撤回提交代码。。。
+我使用的是``--soft`` 参数，将工作区全部文件恢复到指定版本的状态，并且后续错误提交的修改后的代码，会保留下来
 
 ### 恢复的指令
 
 ```shell
-git reset --hard HEAD@{7}
+git reset --soft HEAD@{7}
 ```
 
-``hard``可换成``mixed``，或其它参数
+``soft``可换成``mixed``，或其它参数。hard为不保留任何修改的代码，仅恢复到指定版本
 
-``HEAD@{7}``就是，想恢复到的版本，根据commit记录前面的决定
+``HEAD@{7}``距离Head多少个版本之前。具体多少个版本，由数字指定
 
-然后，执行`git reset`后，`reflog`记录也会更新，并且最新的依然是0，之前的1会递增为2，以此类推，最多好像只到8
+然后，执行`git reset`后，`reflog`记录也会更新，并且最新的依然是0，之前的1会递增为2，以此类推，
