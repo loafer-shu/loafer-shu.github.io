@@ -173,7 +173,7 @@ yay -S deepin-wine-wechat# 因为我的笔记本是高分屏，所以还需要�
 
 ### QQ
 
-TIM版就好 ``yay -S deepin.com.qq.office``
+TIM版就好 ``yay -S deepin-wine-tim``
 
 可能需要修改 `/opt/deepinwine/tools/run.sh` 文件中关于 `WINE_CMD` 的内容
 
