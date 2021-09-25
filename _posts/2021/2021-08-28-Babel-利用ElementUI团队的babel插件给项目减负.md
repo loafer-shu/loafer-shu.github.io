@@ -20,7 +20,7 @@ import Element from 'element-ui'
 Vue.use(Element)
 ```
 
-<img src="./img/vue-config1.png" alt="1" style="zoom: 33%;" />
+<img src="/assets/img/remote01.png" alt="1" style="zoom: 33%;" />
 
 未做其它配置，打包后单文件特别大，即使gzip压缩后也有249KB。
 
@@ -118,7 +118,7 @@ Vue.prototype.$confirm = MessageBox.confirm
 
 接下来再次打包
 
-<img src="./img/vue-config2.png" alt="2" style="zoom:33%;" />
+<img src="/assets/img/remote02.png" alt="2" style="zoom:33%;" />
 
 最大的js文件gzip压缩后体积为159KB，但是还是有点大了
 
@@ -150,7 +150,7 @@ configureWebpack: config => {
 
 再次打包
 
-<img src="./img/vue-config3.png" alt="3" style="zoom:33%;" />
+<img src="/assets/img/remote03.png" alt="3" style="zoom:33%;" />
 
 gzip压缩后最大文件仅86kb
 
