@@ -13,17 +13,17 @@ wx: s864963368
 location: 湖北武汉 # ex. Nice, France
 company: Good Good Study
 company_url: undefined
-github_url: https://github.com/SeeTheDream # ex. https://github.com/DONGChuan
-github_username: SeeTheDream # ex. DONGChuan
+github_url: https://github.com/loafer-shu # ex. https://github.com/DONGChuan
+github_username: loafer-shu # ex. DONGChuan
 description: description_of_your_web_site
 favicon: favicon.png # Image must be in assets/images
-repository: SeeTheDream/SeeTheDream.github.io # ex. DONGChuan/DONGChuan.github.io
+repository: loafer-shu/loafer-shu.github.io # ex. DONGChuan/DONGChuan.github.io
 
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
 # For production, use your github page url. ex. http://dongchuan.github.io
 # url: http://localhost:4000
-url: http://SeeTheDream.github.io
+url: http://loafer-shu.github.io
 
 ## Gem
 gems:
