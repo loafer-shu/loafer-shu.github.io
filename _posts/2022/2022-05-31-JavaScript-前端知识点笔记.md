@@ -158,7 +158,7 @@ Promise 也还是使用回调函数，只不过是把回调封装在了内部，
 
 #### webpack loader如何工作
 
-依次加载每一个loader，遇到有pitch方法的立即执行这个方法，否则继续加载下一个loader。配置的loader是按照从后往前执行的，除了里面的pitch方法是从前往后执行，
+依次加载每一个loader，遇到有pitch方法的立即执行这个方法，否则继续加载下一个loader。配置的loader是按照从后往前执行的，除了定义了pitch方法的是按照加载顺序从前往后执行，
 
 ## HTTP
 
