@@ -2,7 +2,7 @@
 layout: page
 title: About Me
 menu: about
-subtitle:   <h3>舒章遥</h3>
+subtitle:   <h3>舒</h3>
             <p>
                 
             </p>
